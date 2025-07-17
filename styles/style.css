@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --Orange-500: #fb7413;
+  --White: #ffffff;
+  --Grey-500: #959eac;
+  --Grey-900: #252d37;
+  --Grey-912: #272e38;
+  --Grey-925: #1c232d;
+  --Grey-950: #121417;
+  --font: 'Overpass';
+}
+
+html{
+  font-size: 62.5%;
+  font-family: var(--font);
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  background-color: var(--Grey-950);
+  color: var(--White);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  background-image:  linear-gradient(var(--Grey-912), var(--Grey-925));
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+.container img{
+  max-width: 3rem;
+  width: 100%;
+}
+
+.title{
+  margin: 3rem 0 0;
+}
+
+.text{
+  text-align: center;
+  margin: 1.2rem 0;
+  font-size: 1.5rem;
+  color: var(--Grey-500);
+  line-height: 1.5;
+}
+
+.container-feedback{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-feedback{
+   background-color: var(--Grey-900);
+   outline: none;
+   padding: 1.5rem 2rem;
+   color: var(--White);
+   font-weight: 600;
+   border: none;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: .3s;
+}
+
+.button-feedback:hover{
+  background-color: var(--Orange-500);
+  color: var(--Grey-900);
+}
+
+.btn-selected{
+  color: var(--Grey-950);
+  background-color: var(--White);
+  border: none;
+  border-radius: 50%;
+  padding: 1.5rem 2rem;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.submit-btn{
+  width: 100%;
+  margin-top: 3.5rem;
+  padding: 1.3rem 0;
+  background-color: var(--Orange-500);
+  border-radius: 2rem;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.submit-btn:hover{
+  background-color: var(--White);
+  color: var(--Grey-950);
+}
+
+/* Conteiner de Agradecimento */
+
+.thanks{
+  align-items: center;
+}
+
+.thanks .img{
+  max-width: 15rem;
+  width: 100%;
+}
+
+.thanks .rate{
+  display: flex;
+  align-items: center;
+  color: var(--Orange-500);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background-color: var(--Grey-912);
+  margin-top: 2rem;
+}
