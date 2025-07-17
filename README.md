@@ -2,7 +2,7 @@
 
 Este projeto é uma solução para o desafio [Interactive Rating Component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) do site Frontend Mentor. O objetivo é construir um componente de avaliação com interação dinâmica usando HTML, CSS e JavaScript.
 
-![Design Preview](design/active-states.jpg);
+![Design Preview](design/active-states.jpg)
 
 ---
 
